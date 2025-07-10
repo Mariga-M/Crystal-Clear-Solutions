@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
               href="#contact"
-              className="bg-blue-600 dark:bg-blue-500 text-white px-8 py-4 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center group"
+              className="bg-blue-600 dark:bg-blue-500 text-white px-8 py-4 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center group animate-pulse hover:animate-none"
             >
               Get Free Quote
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />

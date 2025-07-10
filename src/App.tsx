@@ -3,11 +3,14 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import PricingCalculator from './components/PricingCalculator';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
+import BookingWidget from './components/BookingWidget';
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import LiveChat from './components/LiveChat';
 
 function App() {
   return (
@@ -17,12 +20,15 @@ function App() {
         <main>
           <Hero />
           <Services />
+          <PricingCalculator />
           <About />
           <Testimonials />
+          <BookingWidget />
           <Contact />
           <FAQ />
         </main>
         <Footer />
+        <LiveChat />
       </div>
     </ThemeProvider>
   );

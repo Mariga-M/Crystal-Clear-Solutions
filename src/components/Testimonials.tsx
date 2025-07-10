@@ -101,16 +101,19 @@ const Testimonials: React.FC = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-8 inline-block">
+          <div className="bg-gradient-to-br from-blue-50 via-green-50 to-blue-50 dark:from-blue-900/20 dark:via-green-900/20 dark:to-blue-900/20 rounded-2xl p-8 inline-block border border-blue-100 dark:border-blue-800 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Ready to Join Our Happy Clients?
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
+            <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-md">
               Experience the Crystal Clear difference for yourself.
+              <span className="block text-sm mt-2 text-green-600 dark:text-green-400 font-medium">
+                💯 100% Satisfaction Guarantee • No contracts required
+              </span>
             </p>
             <a
               href="#contact"
-              className="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors duration-200 font-medium"
+              className="bg-gradient-to-r from-green-600 to-blue-600 dark:from-green-500 dark:to-blue-500 text-white px-8 py-3 rounded-full hover:from-green-700 hover:to-blue-700 dark:hover:from-green-600 dark:hover:to-blue-600 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               Book Your Service
             </a>

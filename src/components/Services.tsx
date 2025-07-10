@@ -8,7 +8,7 @@ const Services: React.FC = () => {
       title: 'Residential Cleaning',
       description: 'Comprehensive home cleaning services including kitchens, bathrooms, bedrooms, and living areas.',
       features: ['Weekly/Bi-weekly/Monthly', 'Deep cleaning available', 'Eco-friendly products', 'Flexible scheduling'],
-      price: 'Starting at Ksh 2,000'
+      price: 'Starting at $80'
     },
     {
       icon: Building,
@@ -22,14 +22,14 @@ const Services: React.FC = () => {
       title: 'Deep Cleaning',
       description: 'Intensive cleaning service that covers every corner, perfect for spring cleaning or special occasions.',
       features: ['Top to bottom clean', 'Inside appliances', 'Baseboards & windows', 'Detailed sanitization'],
-      price: 'Starting at Ksh. 2,000'
+      price: 'Starting at $150'
     },
     {
       icon: Truck,
       title: 'Move-In/Move-Out',
       description: 'Complete cleaning service for property transitions, ensuring spaces are move-in ready.',
       features: ['Empty property focus', 'All rooms included', 'Appliance cleaning', 'Same-day service'],
-      price: 'Starting at Ksh. 1,800'
+      price: 'Starting at $120'
     },
     {
       icon: Palette,
@@ -101,16 +101,19 @@ const Services: React.FC = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-8 inline-block">
+          <div className="bg-gradient-to-r from-blue-50 to-green-50 dark:from-blue-900/20 dark:to-green-900/20 rounded-2xl p-8 inline-block border border-blue-100 dark:border-blue-800">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Need a Custom Solution?
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
+            <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-md">
               We create personalized cleaning plans to meet your unique requirements.
+              <span className="block text-sm mt-2 text-blue-600 dark:text-blue-400 font-medium">
+                ✨ Free consultation • Same-day quotes • Flexible scheduling
+              </span>
             </p>
             <a
               href="#contact"
-              className="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors duration-200 font-medium"
+              className="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               Contact Us Today
             </a>

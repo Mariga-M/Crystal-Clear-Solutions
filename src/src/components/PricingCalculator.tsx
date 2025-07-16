@@ -80,7 +80,7 @@ const PricingCalculator: React.FC = () => {
 Frequency: ${formData.frequency}
 Rooms: ${Object.entries(formData.rooms).map(([room, count]) => `${count} ${room}`).join(', ')}
 ${formData.extras.length > 0 ? `Additional Services: ${formData.extras.map(id => extras.find(e => e.id === id)?.name).join(', ')}` : ''}
-Estimated Price: Ksh.${estimate}`;
+Estimated Price: $${estimate}`;
 
     if (method === 'whatsapp') {
       const message = `Hi! I'd like to book a cleaning service based on my pricing estimate:
@@ -330,7 +330,7 @@ Please help me schedule this service. Thank you!`;
               {formData.extras.length > 0 && (
                 <p><strong>Extras:</strong> {formData.extras.map(id => extras.find(e => e.id === id)?.name).join(', ')}</p>
               )}
-              <p className="text-lg font-semibold text-blue-600 dark:text-blue-400"><strong>Estimated Price: Ksh.{estimate}</strong></p>
+              <p className="text-lg font-semibold text-blue-600 dark:text-blue-400"><strong>Estimated Price: ${estimate}</strong></p>
             </div>
           </div>
           

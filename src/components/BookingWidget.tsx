@@ -42,14 +42,14 @@ const BookingWidget: React.FC = () => {
     
     const message = `New Booking Request:
 
-Service: ${bookingData.service}
-Date: ${bookingData.date}
-Time: ${bookingData.time}
-Frequency: ${bookingData.frequency}
+Service: ${bookingData.service}, 
+Date: ${bookingData.date}, 
+Time: ${bookingData.time}, 
+Frequency: ${bookingData.frequency}, 
 
 Customer Details:
-Name: ${bookingData.name}
-Phone: ${bookingData.phone}
+Name: ${bookingData.name}, 
+Phone: ${bookingData.phone}, 
 ${bookingData.email ? `Email: ${bookingData.email}` : ''}
 
 Address: ${bookingData.address}
@@ -58,7 +58,7 @@ ${bookingData.notes ? `Special Instructions: ${bookingData.notes}` : ''}
 
 Please confirm this booking. Thank you!`;
 
-    const whatsappUrl = `https://wa.me/+24713380803?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+254713380803?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     // Reset form

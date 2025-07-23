@@ -120,7 +120,7 @@ const FAQ: React.FC = () => {
                 Contact Us
               </a>
               <a
-                href="tel:++24713380803"
+                href="tel:+254713380803"
                 className="bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-8 py-3 rounded-full hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-200 font-medium border border-gray-200 dark:border-gray-600"
               >
                 Call Now

@@ -41,9 +41,9 @@ const About: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Founded on the belief that everyone deserves a spotless, healthy environment, 
-            we've been transforming spaces and exceeding expectations since 2019.
+            we've been transforming spaces and exceeding expectations since 2023.
             <span className="block mt-2 text-blue-600 dark:text-blue-400 font-semibold">
-              🏆 Trusted by 500+ satisfied customers across the metro area
+              🏆 Trusted by 50+ satisfied customers across the Nairobi area
             </span>
           </p>
         </div>

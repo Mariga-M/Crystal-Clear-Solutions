@@ -89,7 +89,7 @@ ${serviceDetails}
 
 Please help me schedule this service. Thank you!`;
       
-      const whatsappUrl = `https://wa.me/+24713380803?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/+254713380803?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
     } else {
       const subject = `Booking Request - ${formData.propertyType} Cleaning`;

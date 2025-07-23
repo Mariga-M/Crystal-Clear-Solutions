@@ -25,7 +25,7 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ isOpen, onClose, service })
 
   const handleBookService = () => {
     const message = `Hi! I'm interested in booking ${service.title}. Could you please provide more information and help me schedule a service?`;
-    const whatsappUrl = `https://wa.me/+24713380803?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+254713380803?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

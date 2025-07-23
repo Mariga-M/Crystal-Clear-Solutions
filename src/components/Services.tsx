@@ -13,7 +13,7 @@ const Services: React.FC = () => {
       title: 'Residential Cleaning',
       description: 'Comprehensive home cleaning services including kitchens, bathrooms, bedrooms, and living areas.',
       features: ['Weekly/Bi-weekly/Monthly', 'Deep cleaning available', 'Eco-friendly products', 'Flexible scheduling'],
-      price: 'Starting at $80',
+      price: 'Starting at Ksh. 800',
       detailedDescription: 'Our residential cleaning service transforms your home into a spotless sanctuary. We handle everything from dusting and vacuuming to deep cleaning kitchens and bathrooms, using only eco-friendly products that are safe for your family and pets.',
       included: [
         'All rooms cleaned thoroughly',
@@ -63,7 +63,7 @@ const Services: React.FC = () => {
       title: 'Deep Cleaning',
       description: 'Intensive cleaning service that covers every corner, perfect for spring cleaning or special occasions.',
       features: ['Top to bottom clean', 'Inside appliances', 'Baseboards & windows', 'Detailed sanitization'],
-      price: 'Starting at $150',
+      price: 'Starting at Ksh. 1,500',
       detailedDescription: 'Our deep cleaning service goes beyond regular maintenance to tackle every nook and cranny. Perfect for seasonal cleaning, preparing for special events, or getting your space back to pristine condition.',
       included: [
         'Inside appliances (oven, refrigerator, microwave)',
@@ -88,7 +88,7 @@ const Services: React.FC = () => {
       title: 'Move-In/Move-Out',
       description: 'Complete cleaning service for property transitions, ensuring spaces are move-in ready.',
       features: ['Empty property focus', 'All rooms included', 'Appliance cleaning', 'Same-day service'],
-      price: 'Starting at $120',
+      price: 'Starting at Ksh. 1,200',
       detailedDescription: 'Make your move stress-free with our specialized move-in/move-out cleaning service. We ensure properties are spotless for new occupants or help you get your security deposit back.',
       included: [
         'Complete empty property cleaning',

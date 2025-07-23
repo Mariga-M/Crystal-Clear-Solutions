@@ -42,9 +42,10 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2 group">
             <Sparkles className="h-8 w-8 text-blue-600 dark:text-blue-400 group-hover:rotate-12 transition-transform duration-300" />
-            <span className="text-2xl font-bold text-gray-900 dark:text-white">
+            <a href="#home"
+               className="text-2xl font-bold text-gray-900 dark:text-white">
               Crystal Clear Solutions
-            </span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}

@@ -29,7 +29,7 @@ Message: ${formData.message}
 
 Please provide me with a detailed quote. Thank you!`;
 
-    const whatsappUrl = `https://wa.me/+24713380803?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+254713380803?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     setShowModal(false);
@@ -40,10 +40,10 @@ Please provide me with a detailed quote. Thank you!`;
     const subject = `Quote Request - ${formData.service}`;
     const body = `Hi! I'd like to request a quote for cleaning services.
 
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Service: ${formData.service}
+Name: ${formData.name}, 
+Email: ${formData.email}, 
+Phone: ${formData.phone}, 
+Service: ${formData.service}, 
 Message: ${formData.message}
 
 Please provide me with a detailed quote. Thank you!`;
@@ -77,7 +77,7 @@ Please provide me with a detailed quote. Thank you!`;
     {
       icon: MapPin,
       title: 'Service Area',
-      details: 'Greater Metro Area',
+      details: 'Nairobi Area',
       subtitle: 'We come to you'
     },
     {
@@ -243,14 +243,13 @@ Please provide me with a detailed quote. Thank you!`;
                 Service Areas
               </h4>
               <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 dark:text-gray-400">
-                <div>• Downtown</div>
-                <div>• Midtown</div>
-                <div>• Uptown</div>
-                <div>• East Side</div>
-                <div>• West End</div>
-                <div>• Suburbs</div>
+                <div>• West & Central-West Nairobi </div>
+                <div>• North & North-East Nairobi </div>
+                <div>• East & South-East Nairobi (Embakasi Cluster) </div>
+                <div>• Central & East-Central Nairobi </div>
+                <div>• Informal Settlements Near the City Center</div>
               </div>
-              <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">
+              <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mt-4">
                 Not sure if we serve your area? Give us a call!
               </p>
             </div>

@@ -4,38 +4,32 @@ import { MapPin, Clock, Phone } from 'lucide-react';
 const ServiceAreas: React.FC = () => {
   const serviceAreas = [
     {
-      area: 'Downtown',
-      neighborhoods: ['Financial District', 'Arts Quarter', 'Historic Downtown', 'Waterfront'],
-      responseTime: '30 minutes',
-      featured: true
-    },
-    {
-      area: 'Midtown',
-      neighborhoods: ['Business District', 'Medical Center', 'University Area', 'Shopping District'],
+      area: 'East & South-East Nairobi (Embakasi Cluster)',
+      neighborhoods: ['Embakasi South', 'Embakasi North', 'Embakasi Central', 'Embakasi East', 'Embakasi West'],
       responseTime: '45 minutes',
       featured: true
     },
     {
-      area: 'Uptown',
-      neighborhoods: ['Residential Hills', 'Park View', 'Garden District', 'Country Club'],
-      responseTime: '45 minutes',
+      area: 'West & Central-West Nairobi',
+      neighborhoods: ['Westlands', 'Dagoretti North', 'Dagoretti South', 'Langata'],
+      responseTime: '60 minutes',
+      featured: true
+    },
+    {
+      area: 'North & North-East Nairobi',
+      neighborhoods: ['Roysambu', 'Kasarani', 'Ruaraka '],
+      responseTime: '75 minutes',
       featured: false
     },
     {
-      area: 'East Side',
-      neighborhoods: ['Industrial Park', 'Riverside', 'Tech Campus', 'New Development'],
+      area: 'Central & East-Central Nairobi',
+      neighborhoods: ['Starehe', 'Kamukunji', 'Makadara'],
       responseTime: '60 minutes',
       featured: false
     },
     {
-      area: 'West End',
-      neighborhoods: ['Suburban Estates', 'Family Neighborhoods', 'Shopping Centers', 'Schools District'],
-      responseTime: '60 minutes',
-      featured: false
-    },
-    {
-      area: 'Suburbs',
-      neighborhoods: ['Oakwood', 'Maplewood', 'Pine Valley', 'Cedar Heights'],
+      area: 'Informal Settlements Near the City Center',
+      neighborhoods: ['Mathare', 'Kibra'],
       responseTime: '75 minutes',
       featured: false
     }
@@ -52,7 +46,7 @@ const ServiceAreas: React.FC = () => {
             </h2>
           </div>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            We proudly serve the greater metro area with fast, reliable cleaning services. 
+            We proudly serve the greater Nairobi area with fast, reliable cleaning services. 
             Check if we service your neighborhood below.
           </p>
         </div>
@@ -117,17 +111,17 @@ const ServiceAreas: React.FC = () => {
         {/* Coverage Map Placeholder */}
         <div className="bg-white dark:bg-gray-700 rounded-2xl p-8 shadow-lg text-center">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-            Complete Metro Coverage
+            Complete Nairobi Coverage
           </h3>
           <div className="bg-gray-100 dark:bg-gray-600 rounded-lg p-12 mb-6">
             <MapPin className="h-24 w-24 text-gray-400 mx-auto mb-4" />
-            <p className="text-gray-500 dark:text-gray-400">
+            {/* <p className="text-gray-500 dark:text-gray-400">
               Interactive service area map coming soon
-            </p>
+            </p> */}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
-              <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">25+</div>
+              <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">20+</div>
               <div className="text-sm text-gray-600 dark:text-gray-400">Neighborhoods</div>
             </div>
             <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Sparkles, Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Sparkles, Facebook, Instagram, Mail, Phone, MapPin, X } from 'lucide-react';
 import ServiceModal from './ServiceModal';
 
 const Footer: React.FC = () => {
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
       title: 'Residential Cleaning',
       description: 'Comprehensive home cleaning services including kitchens, bathrooms, bedrooms, and living areas.',
       features: ['Weekly/Bi-weekly/Monthly', 'Deep cleaning available', 'Eco-friendly products', 'Flexible scheduling'],
-      price: 'Starting at $80',
+      price: 'Starting at Ksh.800',
       detailedDescription: 'Our residential cleaning service transforms your home into a spotless sanctuary. We handle everything from dusting and vacuuming to deep cleaning kitchens and bathrooms, using only eco-friendly products that are safe for your family and pets.',
       included: [
         'All rooms cleaned thoroughly',
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
       title: 'Deep Cleaning',
       description: 'Intensive cleaning service that covers every corner, perfect for spring cleaning or special occasions.',
       features: ['Top to bottom clean', 'Inside appliances', 'Baseboards & windows', 'Detailed sanitization'],
-      price: 'Starting at $150',
+      price: 'Starting at Ksh. 1,500',
       detailedDescription: 'Our deep cleaning service goes beyond regular maintenance to tackle every nook and cranny. Perfect for seasonal cleaning, preparing for special events, or getting your space back to pristine condition.',
       included: [
         'Inside appliances (oven, refrigerator, microwave)',
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
       title: 'Move-In/Move-Out',
       description: 'Complete cleaning service for property transitions, ensuring spaces are move-in ready.',
       features: ['Empty property focus', 'All rooms included', 'Appliance cleaning', 'Same-day service'],
-      price: 'Starting at $120',
+      price: 'Starting at Ksh. 1,200',
       detailedDescription: 'Make your move stress-free with our specialized move-in/move-out cleaning service. We ensure properties are spotless for new occupants or help you get your security deposit back.',
       included: [
         'Complete empty property cleaning',
@@ -167,7 +167,7 @@ const Footer: React.FC = () => {
   const socialLinks = [
     { icon: Facebook, href: '#', label: 'Facebook' },
     { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Twitter, href: '#', label: 'Twitter' }
+    { icon: X, href: '#', label: 'X' }
   ];
 
   const handleServiceClick = (service: any) => {
@@ -184,7 +184,9 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <Sparkles className="h-8 w-8 text-blue-400" />
-              <span className="text-2xl font-bold">Crystal Clear Solutions</span>
+              <a 
+              href="#home"
+               className="text-2xl font-bold">Crystal Clear Solutions</a>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Professional cleaning services that transform your space into a sparkling clean environment. 
@@ -246,7 +248,7 @@ const Footer: React.FC = () => {
               <Phone className="h-5 w-5 text-blue-400" />
               <div>
                 <p className="text-sm text-gray-400">Call us</p>
-                <p className="text-white font-medium">+254713380803</p>
+                <p className="text-white font-medium">+254 713380803</p>
               </div>
             </div>
             
@@ -262,7 +264,7 @@ const Footer: React.FC = () => {
               <MapPin className="h-5 w-5 text-blue-400" />
               <div>
                 <p className="text-sm text-gray-400">Service Area</p>
-                <p className="text-white font-medium">Greater Metro Area</p>
+                <p className="text-white font-medium">Greater Nairobi Area</p>
               </div>
             </div>
           </div>
